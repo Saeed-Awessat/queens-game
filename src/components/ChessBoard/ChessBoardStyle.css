@@ -1,0 +1,27 @@
+.App {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+
+.App-header {
+    background-color: #282c34;
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.board{
+    width: 801px;
+    height: 801px;
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(8,100px);
+    grid-template-rows: repeat(8,100px);
+}

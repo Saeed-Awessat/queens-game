@@ -1,0 +1,22 @@
+.cell{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.white-tile{
+    background-color: floralwhite;
+}
+
+.black-tile{
+    background-color: black;
+}
+
+img{
+    height: inherit;
+    width: inherit;
+}
+
+.not-available{
+    background-color: lightcoral;
+}
